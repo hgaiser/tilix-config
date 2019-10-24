@@ -49,7 +49,7 @@ error() {
 }
 
 # set dconf values
-msg "Loading dconf settings."
+msg "Loading Tilix dconf settings."
 cat dconf.dump | dconf load /
 
 msg "Successfully configured Tilix."
